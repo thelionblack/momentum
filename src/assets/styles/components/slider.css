@@ -1,0 +1,27 @@
+.slider {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+}
+
+    .slider img {
+        visibility: hidden;
+        position: absolute;
+    }
+
+    .slider button {
+        font-size: 10rem;
+        cursor: pointer;
+        background-color: inherit;
+        border: none;
+        color: gray;
+        transition: opacity .3s;
+    }
+
+    .slider button:hover {
+        opacity: .3;
+    }
+
+
+
