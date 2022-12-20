@@ -1,0 +1,37 @@
+
+time {
+    font-size: 10rem;
+}
+
+data {
+    font-size: 2.5rem;
+}
+
+.Greeting-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+    .Greeting-container span {
+        width: 50%;
+        margin-right: 10px;
+        text-align: right;
+    }
+    
+    .Greeting-container input {
+        width: 50%;
+    }
+
+@media screen and (max-width: 520px) {
+    time {
+        font-size: 5rem;
+    }
+    data {
+        font-size: 1.2rem;
+    }
+    .Greeting-container {
+        font-size: 1.5rem;
+    }
+}
